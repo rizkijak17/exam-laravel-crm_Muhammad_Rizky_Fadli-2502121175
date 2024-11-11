@@ -1,0 +1,62 @@
+
+> dev
+> vite
+
+
+  VITE v5.4.10  ready in 540 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+  LARAVEL v11.30.0  plugin v1.0.5
+
+  ➜  APP_URL: http://localhost
+7:05:06 AM [vite] full reload resources/views/dashboard.blade.php
+7:05:55 AM [vite] full reload routes/web.php
+7:10:12 AM [vite] full reload resources/views/welcome.blade.php
+7:11:28 AM [vite] full reload resources/views/layouts/app.blade.php
+7:14:15 AM [vite] full reload resources/views/welcome.blade.php
+7:14:50 AM [vite] full reload resources/views/layouts/app.blade.php
+7:16:20 AM [vite] full reload routes/web.php
+7:19:29 AM [vite] full reload resources/views/home.blade.php
+7:19:29 AM [vite] full reload resources/views/auth/login.blade.php
+7:19:29 AM [vite] full reload resources/views/auth/register.blade.php
+7:19:29 AM [vite] full reload resources/views/auth/verify.blade.php
+7:19:29 AM [vite] full reload resources/views/auth/passwords/confirm.blade.php
+7:19:29 AM [vite] full reload resources/views/auth/passwords/email.blade.php
+7:19:29 AM [vite] full reload resources/views/auth/passwords/reset.blade.php
+7:20:57 AM [vite] full reload routes/web.php
+7:20:57 AM [vite] vite.config.js changed, restarting server...
+7:20:58 AM [vite] server restarted.
+
+  LARAVEL v11.30.0  plugin v
+
+  ➜  APP_URL: http://localhost
+Error: The following dependencies are imported but could not be resolved:
+
+  bootstrap/dist/css/bootstrap.min.css (imported by /var/www/html/laravel/resources/js/app.js)
+  bootstrap (imported by /var/www/html/laravel/resources/js/app.js)
+
+Are they installed?
+    at file:///var/www/html/laravel/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:50666:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///var/www/html/laravel/node_modules/vite/dist/node/chunks/dep-BWSbWtLw.js:50171:26
+7:28:33 AM [vite] full reload resources/views/auth/login.blade.php
+7:28:36 AM [vite] full reload resources/views/auth/passwords/confirm.blade.php
+7:28:39 AM [vite] full reload resources/views/auth/passwords/email.blade.php
+7:28:40 AM [vite] full reload resources/views/auth/passwords/reset.blade.php
+7:28:43 AM [vite] full reload resources/views/auth/register.blade.php
+7:28:44 AM [vite] full reload resources/views/auth/verify.blade.php
+7:29:53 AM [vite] full reload resources/views/home.blade.php
+7:33:40 AM [vite] full reload routes/web.php
+7:33:40 AM [vite] vite.config.js changed, restarting server...
+failed to load config from /var/www/html/laravel/vite.config.js
+7:33:40 AM [vite] Cannot find package 'vite' imported from /var/www/html/laravel/vite.config.js.timestamp-1731137620599-ac9f5ec4bbb39.mjs
+7:33:40 AM [vite] server restart failed
+7:39:26 AM [vite] full reload routes/web.php
+8:07:15 AM [vite] full reload resources/views/layouts/app.blade.php
+8:08:00 AM [vite] full reload routes/web.php
+8:17:15 AM [vite] full reload routes/web.php
+8:35:50 AM [vite] full reload routes/web.php
+9:04:40 AM [vite] full reload resources/views/layouts/app.blade.php
+9:05:14 AM [vite] full reload resources/views/layouts/app.blade.php
